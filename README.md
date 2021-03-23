@@ -27,13 +27,34 @@ Gives the reminder of the two numbers
 # # H e l l o   w o r l  d  !
 # # 0 1 2 3 4 5 6 7 8 9 10 11
 ```
-## To find out the length of this statement we do len()
+### To find out the length of this statement we do len()
 ```
 greetings = "Hello World!"
 print(len(greetings))
-# For INDEXING we use [] to slice
+```
+
+### For INDEXING we use [] to slice
+```
 print(greetings[0:5]) # This will output Hello
 print(greetings[6:11]) # This will output World
-# Reverse indexing starts with -1
+```
+### Reverse indexing starts with -1
+```
 print(greetings[-1])
 ```
+
+
+## Concatination 
+``````
+age = 22 # ages as an int 
+ageS = "22" # age as a string
+ageF = 22.1 # age as float 
+``````
+### converts age from int to a string
+``````
+print(str(age))
+``````
+# converts integer to an int from a string
+``````
+print(int(ageS)) 
+``````

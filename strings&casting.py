@@ -30,15 +30,31 @@
 # # strip() helps us get rid of all white spaces
 # print(len(white_space.strip()))
 
-# count() counts a number of times a word is mentioned
-example_text = "Here is some text with text that has alot of text"
-print(example_text)
-print(example_text.count("text"))
-# To change to Upper case we use .upper()
-print(example_text.upper())
-# We use .lower() to change to lower
-print(example_text.lower())
-# To make the first letter in upper case we use .capitalize()
-print(example_text.capitalize())
-# To replace we use .replace() and put the word we want to get rid of with the word we want
-print(example_text.replace("alot","lots"))
+# # count() counts a number of times a word is mentioned
+# example_text = "Here is some text with text that has alot of text"
+# print(example_text)
+# print(example_text.count("text"))
+# # To change to Upper case we use .upper()
+# print(example_text.upper())
+# # We use .lower() to change to lower
+# print(example_text.lower())
+# # To make the first letter in upper case we use .capitalize()
+# print(example_text.capitalize())
+# # To replace we use .replace() and put the word we want to get rid of with the word we want
+# print(example_text.replace("alot","lots"))
+
+
+
+# Concatenation and Casting
+first_name = "Arun"
+last_name = "Panesar"
+age = 22 # ages as an int
+ageS = "22" # age as a string
+ageF = 22.1 # age as float
+
+print(first_name + " " + last_name)
+print(first_name + " " + last_name + " " + str(age)) # convets age from int to a string
+print(int(ageS)) # converts integer to an int from a string
+
+# F- string is an great way of formatting f
+print(f"Your first name is {first_name} and Last Name is {last_name} and you are {age} old")
